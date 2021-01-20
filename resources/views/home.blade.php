@@ -1,7 +1,6 @@
 @extends('layouts.main')
 
-{{-- @section('content-main') --}}
-
+@section('content-main')
     {{-- Title --}}
     <h1>The car of your dream</h1>
 
@@ -21,7 +20,6 @@
             </li>
         </ul>
     @endforeach
-{{-- @endsection --}}
 
     <section id="app">
         <h2>Our Bikes App</h2>
@@ -35,6 +33,7 @@
             </li>
         </ul>
     </section>
-
+   
     {{-- JS --}}
-<script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/app.js') }}"></script>
+@endsection
