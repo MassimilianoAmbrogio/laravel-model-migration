@@ -17,3 +17,6 @@
         </li>
     @endforeach
 @endsection
+
+{{-- JS --}}
+<script src="{{ asset('js/app.js') }}"></script>
