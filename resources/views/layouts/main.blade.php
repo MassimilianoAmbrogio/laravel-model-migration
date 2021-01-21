@@ -19,6 +19,5 @@
         @include('partials.footer')
 
         {{-- Fine esercizio car shop --}}
-        
     </body>
 </html>
